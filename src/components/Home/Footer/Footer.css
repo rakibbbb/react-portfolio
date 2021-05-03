@@ -1,0 +1,15 @@
+#footer{
+    background-color: #222831;
+    margin: 0;
+  }
+  
+  .footer-icon {
+    margin: 20px 10px;
+    color: #ffffff;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .footer-icon:hover{
+    color: #f5bc00;
+  }

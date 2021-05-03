@@ -1,0 +1,59 @@
+.navbar{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)) ,url(../../../Assets/images/nav.jpg);
+}
+.navbar-brand{
+    font-weight: 900;
+    font-family: 'Ubuntu', sans-serif;
+    color:aqua;
+}
+
+.nav-link{
+    font-size: 15px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.nav-link:after{
+    position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #ffc107;
+  height: 1px;
+}
+.nav-link:hover:after{
+    width: 100%;
+}
+
+.nav-link:after,
+.nav-link:before{
+    transition: all .5s;
+}
+
+.nav-link:hover{
+    color: #ffc107 !important;
+}
+
+.portfolio{
+    font-size:25px;
+}
+
+.portfo{
+    color: #ff0011;
+}
+
+.lio{
+    color: #ffc107;
+}
+
+
+@media screen and (max-width: 992px) {
+    .all-link{
+        text-align: center;
+    }
+  }
+
