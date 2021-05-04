@@ -10,7 +10,7 @@ const Projects = () => {
             <h1 className="text-center py-5">My Projects</h1>
             <div className="row">
                 <div className="col-sm-12 col-lg-4 col-md-6">
-                    <div className="card" style={{width: "18rem"}}>
+                    <div className="card" style={{width: "22rem"}}>
                         <img className="card-img-top" src={P1} alt="Card image cap" />
                             <div className="card-body">
                                 <p className="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -19,7 +19,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="col-sm-12 col-lg-4 col-md-6">
-                    <div className="card" style={{width: "18rem"}}>
+                    <div className="card" style={{width: "22rem"}}>
                         <img className="card-img-top" src={P2} alt="Card image cap" />
                             <div className="card-body">
                                 <p className="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -28,7 +28,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="col-sm-12 col-lg-4 col-md-6">
-                    <div className="card" style={{width: "18rem"}}>
+                    <div className="card" style={{width: "22rem"}}>
                         <img className="card-img-top" src={P3} alt="Card image cap" />
                             <div className="card-body">
                                 <p className="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

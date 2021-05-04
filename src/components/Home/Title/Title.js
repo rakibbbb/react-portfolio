@@ -2,11 +2,10 @@ import React from 'react';
 import Image from '../../../Assets/images/me.png';
 import {
     FaFacebookF,
-    FaTwitter,
-    FaPinterest,
     FaInstagram,
-    FaPlay,
     FaDownload,
+    FaGithub,
+    FaLinkedin,
 } from "react-icons/fa";
 import './Title.css';
 
@@ -22,16 +21,16 @@ const Title = () => {
                             <div className="header__section">
                                 <ul className="header__ul">
                                     <li>
-                                        <FaFacebookF className="headerIcon" />
+                                        <a href="https://www.facebook.com/r.rakib1997/" target="_blank"><FaFacebookF className="headerIcon" /></a>
                                     </li>
                                     <li>
-                                        <FaTwitter className="headerIcon" />
+                                        <a href="https://www.linkedin.com/in/md-rakibuzzaman-a97b38146/" target="_blank"><FaLinkedin className="headerIcon" /></a>
                                     </li>
                                     <li>
-                                        <FaPinterest className="headerIcon" />
+                                        <a href="https://github.com/rakibbbb" target="_blank"><FaGithub className="headerIcon" /></a>
                                     </li>
                                     <li>
-                                        <FaInstagram className="headerIcon" />
+                                        <a href="https://www.instagram.com/ra_kibb/" target="_blank"><FaInstagram className="headerIcon" /></a>
                                     </li>
                                 </ul>
                                 <h3>Hey, I'm</h3>
